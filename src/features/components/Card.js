@@ -25,6 +25,10 @@ export const Card = () => {
     setSelectedOption("");
   }
 
+  const questionInNumber = currentIndex + 1;
+  const totalArrayLength = data.length;
+  const progressPercentage = ((currentIndex + 1) / totalArrayLength) * 100;
+
   const canSave = !selectedOption;
 
   const buttonText = isLastQuestion ? <Submit /> : "Next";
@@ -34,6 +38,19 @@ export const Card = () => {
       className="container col-sm-9 col-md-9 col-lg-6 border shadow-sm p-5 mb-5 bg-body rounded"
       style={{ marginTop: "-10rem" }}
     >
+      <div className="progress">
+        <div
+          className="progress-bar bg-success"
+          role="progressbar"
+          style={{ width: `${progressPercentage}%` }}
+          aria-valuenow={progressPercentage}
+          aria-valuemin="0"
+          aria-valuemax="100"
+        ></div>
+      </div>
+      <p>
+        {questionInNumber} of {totalArrayLength} questions
+      </p>
       <div>
         <div>
           <h1>{currentItem.question}</h1>
