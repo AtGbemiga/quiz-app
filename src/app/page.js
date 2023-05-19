@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import Link from "next/link";
 import { Navbar } from "@/features/components/Navbar";
 
@@ -19,5 +18,5 @@ export default function Home() {
         </section>
       </main>
     </>
-  )
+  );
 }
