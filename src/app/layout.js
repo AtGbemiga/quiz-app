@@ -1,3 +1,4 @@
+"use client";
 import { Provider } from "react-redux";
 import { store } from "@/features/store/store";
 import { Inter } from "next/font/google";
