@@ -6,10 +6,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+/*export const metadata = {
   title: "Quiz app",
   description: "Quiz app",
-};
+};*/
 
 export default function RootLayout({ children }) {
   return (
