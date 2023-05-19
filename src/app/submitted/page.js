@@ -23,7 +23,7 @@ const SubmittedPage = () => {
           </svg>
         </div>
         <section
-          style={{ position: "fixed", top: "20%", width: "89%" }}
+          style={{ position: "fixed", top: "20%", width: "90%" }}
           className="m-5 border text-center shadow-lg p-5 mb-5 bg-body rounded"
         >
           Submitted Successfully!
