@@ -5,13 +5,14 @@ const QuizPage = () => {
   return (
     <>
       <Navbar />
-      <div className="d-flex justify-content-center align-items-center border border-success" 
-        style={{height: "90vh", boxSizing: "border-box"}}
+      <div
+        className="d-flex justify-content-center align-items-center border"
+        style={{ height: "90vh", boxSizing: "border-box" }}
       >
-          <Card />
+        <Card />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default QuizPage
+export default QuizPage;

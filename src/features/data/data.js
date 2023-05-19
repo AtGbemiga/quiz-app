@@ -10,7 +10,7 @@ export const data = [
     question: "Capital of France",
     optionOne: "Lagos",
     optionTwo: "Paris",
-    optionThree: "Jos",
+    optionThree: "Dubai",
     correctAns: "Paris",
   },
   {
